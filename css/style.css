@@ -1,0 +1,129 @@
+
+
+.logopng {
+    width: 150px;
+}
+
+.encabezado {
+    background-color: transparent;
+}
+
+.menuNav a:hover{
+    background-color: #00fca8;
+    color: white;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #0c7e58;
+}
+
+.navbar-toggler-icon {
+    background-color: #0c7e58;
+}
+
+/* Estilos para el carrusel */
+#carouselExampleDark .carousel-item img {
+    width: 100%; 
+    height: 650px; 
+    object-fit: cover; 
+}
+
+
+#carouselExampleDark .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/fondoweb2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow-x: hidden; 
+}
+
+.content {
+    height: 2000px;
+}
+
+.txtwhite {
+    color: white;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+
+}
+
+.txtblack {
+    color: black;
+    font-family: 'Saira', sans-serif;
+    font-weight: 700;
+
+}
+
+.tituloconocenos {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.tituloconocenos:hover {
+    color: #00fca8;
+}
+
+
+
+/*Fuentes*/
+
+.alegreyaTitulo{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.hovertrabajoshovertrabajos:hover {
+    color: #00fca8;
+}
+
+.cuadradonegro {
+    background: rgba(0, 0, 0, 0.621);
+}
+
+.cuadradoverde {
+    background: #0ea93f6d;
+}
+
+.section-background {
+    background-image: url(../images/personaDron.jpg); /* Reemplaza 'ruta-de-la-imagen' con la ruta real de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.custom-section {
+    max-width: 1000px;
+    margin: auto;
+     /* Para centrar la sección */
+    /* Otros estilos que puedas necesitar */
+}
+
+
+.bg-custom-section {
+    background-image: url(../images/personaDron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+/* Estilos adicionales para dispositivos móviles */
+@media (max-width: 767px) {
+    .img-fluid {
+        width: 100%; /* Hacer que la imagen SVG ocupe el 100% del ancho en dispositivos móviles */
+    }
+}
