@@ -101,7 +101,7 @@ body {
 }
 
 .section-background {
-    background-image: url(../images/personaDron.jpg); /* Reemplaza 'ruta-de-la-imagen' con la ruta real de tu imagen */
+    background-image: url(../images/personaDron.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -110,8 +110,6 @@ body {
 .custom-section {
     max-width: 1000px;
     margin: auto;
-     /* Para centrar la sección */
-    /* Otros estilos que puedas necesitar */
 }
 
 
@@ -121,9 +119,15 @@ body {
     background-repeat: no-repeat; 
 }
 
-/* Estilos adicionales para dispositivos móviles */
+
 @media (max-width: 767px) {
     .img-fluid {
-        width: 100%; /* Hacer que la imagen SVG ocupe el 100% del ancho en dispositivos móviles */
+        width: 100%;
     }
+}
+
+.bg-custom-sectiontrabajos {
+    background-image: url(../images/dronAmanecer2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
 }
